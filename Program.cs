@@ -19,5 +19,5 @@ Console.WriteLine("Não é possível dividir por zero.");
 {
    quociente = numerador / denominador;
 
-   Console.WriteLine($"{numerador} dividido por {quociente} é {denominador}"); 
+   Console.WriteLine($"{numerador:N1} dividido por {quociente:N1} é {denominador:N1}"); 
 }
